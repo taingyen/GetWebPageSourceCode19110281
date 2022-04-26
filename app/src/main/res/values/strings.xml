@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AsyncTaskLoader</string>
+
+    <!-- Strings in activity_main view -->
+    <string name="instructions">Enter a book name to find out who wrote the book. </string>
+    <string name="button_text">Search Books</string>
+    <string name="input_hint">Book Title</string>
+
+    <!-- User messages for in-process queries and error results. -->
+    <string name="loading">Loading…</string>
+    <string name="no_results">"No Results Found"</string>
+    <string name="no_search_term">Please enter a search term</string>
+    <string name="no_network">Please check your network connection and try again.</string>
+    <string name="get_page_source">Get page source</string>
+    <string name="page_source_will_appear_here">Page source will appear here</string>
+    <string-array name="http_protocol">
+        <item name="https">https://</item>
+        <item name="http">http://</item>
+    </string-array>
+</resources>
